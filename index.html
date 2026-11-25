@@ -537,18 +537,6 @@
           <button id="btn-mobile-preview" type="button" onclick="setMobileView('preview')" class="nos-btn-ghost px-2.5 py-1 font-medium">PREVIEW</button>
         </div>
 
-        <!-- JSON Save / Load -->
-        <button type="button" onclick="exportJSON()" title="Save resume data as JSON file" class="nos-btn px-2.5 py-1.5 font-telemetry text-[11px] font-medium flex items-center gap-1.5">
-          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
-          <span class="hidden xl:inline">SAVE JSON</span>
-        </button>
-
-        <label title="Load resume data from JSON file" class="nos-btn cursor-pointer px-2.5 py-1.5 font-telemetry text-[11px] font-medium flex items-center gap-1.5">
-          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"/></svg>
-          <span class="hidden xl:inline">LOAD JSON</span>
-          <input type="file" id="json-import-input" accept=".json" class="hidden" onchange="importJSON(event)" />
-        </label>
-
         <!-- Sample / Clear -->
         <button type="button" onclick="fillJohnDoeSample()" title="Fill inputs with editable John Doe sample" class="nos-btn px-2.5 py-1.5 text-xs font-medium">
           Sample
