@@ -16,7 +16,7 @@ Applying for an entry-level job shouldn't require 5 years of experience, a 2x2 I
 
 No build step or backend required:
 
-1. Open `harvard_resume_builder.html` in any modern browser.
+1. Open https://jace54321.github.io/hire-mo-ko/ in any modern browser.
 2. Fill in your details (or click **Load John Doe Sample** to explore).
 3. Click **Export PDF** (uncheck *Headers and footers* in the print dialog) or **DOCX**.
 
